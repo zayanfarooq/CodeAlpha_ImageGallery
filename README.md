@@ -4,7 +4,7 @@ A responsive Image Gallery built using HTML, CSS and JavaScript.
 
 ## 🚀 Live Demo
 
-https://YOUR_USERNAME.github.io/CodeAlpha_ImageGallery/
+https://zayanfarooq.github.io/CodeAlpha_ImageGallery/
 
 ## 🛠 Technologies Used
 
