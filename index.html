@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery | CodeAlpha</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+
+        <h1>Image Gallery</h1>
+
+        <p>Responsive Image Gallery with Lightbox</p>
+
+    </header>
+
+    <!-- Filter Buttons -->
+
+    <section class="buttons">
+
+        <button class="active" data-filter="all">All</button>
+
+        <button data-filter="nature">Nature</button>
+
+        <button data-filter="city">City</button>
+
+        <button data-filter="animals">Animals</button>
+
+    </section>
+
+    <!-- Gallery -->
+
+    <section class="gallery">
+
+        <div class="image nature">
+            <img src="images/nature1.jpg" alt="">
+        </div>
+
+        <div class="image city">
+            <img src="images/city 1.jpg" alt="">
+        </div>
+
+        <div class="image animals">
+            <img src="images/animals1.jpg" alt="">
+        </div>
+
+        <div class="image nature">
+            <img src="images/nature2.jpg" alt="">
+        </div>
+
+        <div class="image city">
+            <img src="images/city2.jpg" alt="">
+        </div>
+
+        <div class="image animals">
+            <img src="images/animals2.jpg" alt="">
+        </div>
+
+    </section>
+
+    <!-- Lightbox -->
+
+    <div class="lightbox">
+
+        <span class="close">&times;</span>
+
+        <i class="fa-solid fa-chevron-left prev"></i>
+
+        <img id="lightbox-img" src="" alt="">
+
+        <i class="fa-solid fa-chevron-right next"></i>
+
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>© 2026 CodeAlpha Image Gallery | Developed by Zayan Farooq</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
